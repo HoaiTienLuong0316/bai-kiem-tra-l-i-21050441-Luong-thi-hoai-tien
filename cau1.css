@@ -11,15 +11,28 @@ body {
 main {
     padding: 20px;
 }
+.container {
+    padding: 0 100px 0 100px;
+}
 
 section {
     margin-bottom: 20px;
 }
-
-.h1{
-    font-size: 45px;
-    margin-bottom: 30px;
-    align-content: center;
+ul {
+    text-align: center;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px 0px 0px; 
 }
 
 h2 {
@@ -52,7 +65,7 @@ p {
 }
 .avatar img {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 50%;
 }
 
@@ -65,8 +78,51 @@ p {
 
 }
 
+.btn {
+    display: inline-block;
+    border-radius: 0.8em;
+    padding: 0.3em;
+    margin: 5px 0;
+    box-sizing: border-box;
+    min-height: 30px;
+    transition: ease 0.5s;
+}
+.facebook img {
+    width: 30px;
+}
+.tiktok  img{
+    width: 30px;
+}
+.instagram img {
+    width: 30px;
+}
+
 footer {
-    background-color: #f0f0f0;
-    padding: 20px;
+    color: black;
     text-align: center;
+    padding: 15px;
+}
+.box {
+    width: 370px;
+    height: 160px;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.noidung {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.box h2 {
+    margin-top: 0;
+}
+.box ul li{
+    padding-top: 5px;
+}
+.box:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
